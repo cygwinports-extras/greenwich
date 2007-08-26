@@ -1,0 +1,79 @@
+greenwich
+------------------------------------------
+Greenwich is a whois client that supports almost all gTLDS, ccTLDs,
+second level ccTLDS and other private domain registries, as well as all
+IP address registries. It is written in Perl and uses the Gnome
+libraries to integrate into your desktop environment.
+
+Runtime requirements:
+  perl-5.8.8-4
+  perl-Glib-1.144-1
+  perl-Gnome2-1.041-1
+  perl-Gnome2-GConf-1.000-3
+  perl-Gtk2-1.146-1
+  perl-Gtk2-GladeXML-1.005-1
+  perl-IP-Country-2.20-1
+  perl-Locale-gettext-1.03-2
+  whois-4.6.14-1
+
+Canonical website:
+  http://jodrell.net/projects/greenwich
+
+Canonical download:
+  http://jodrell.net/files/greenwich/
+
+-------------------------------------------
+
+Build instructions:
+  unpack greenwich-0.8.2-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./greenwich-0.8.2-1.cygport all
+
+This will create:
+  /usr/src/greenwich-0.8.2-1-src.tar.bz2
+  /usr/src/greenwich-0.8.2-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/gconf/schemas/greenwich.schema
+  /etc/postinstall/greenwich.sh
+  /etc/preremove/greenwich.sh
+  /usr/bin/greenwich
+  /usr/lib/greenwich/WhoisMap.pm
+  /usr/share/applications/greenwich.desktop
+  /usr/share/doc/Cygwin/greenwich-0.8.2.README
+  /usr/share/doc/greenwich-0.8.2/ChangeLog
+  /usr/share/doc/greenwich-0.8.2/INSTALL
+  /usr/share/doc/greenwich-0.8.2/LICENSE
+  /usr/share/doc/greenwich-0.8.2/README
+  /usr/share/greenwich/greenwich.glade
+  /usr/share/icons/Bluecurve/48x48/apps/greenwich.png
+  /usr/share/icons/Industrial/48x48/apps/greenwich.png
+  /usr/share/icons/hicolor/24x24/apps/greenwich.png
+  /usr/share/icons/hicolor/48x48/apps/greenwich.png
+  /usr/share/locale/en_AU/LC_MESSAGES/greenwich.mo
+  /usr/share/locale/en_CA/LC_MESSAGES/greenwich.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/greenwich.mo
+  /usr/share/locale/en_US/LC_MESSAGES/greenwich.mo
+  /usr/share/locale/fr_FR/LC_MESSAGES/greenwich.mo
+  /usr/share/locale/pl/LC_MESSAGES/greenwich.mo
+  /usr/share/locale/sv_SE/LC_MESSAGES/greenwich.mo
+  /usr/share/man/man1/greenwich.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.8.2-1 -----
+Version bump.
+
+----- version 0.8.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -1,0 +1,7 @@
+category: Gnome Net
+requires: perl perl-Gnome2 perl-Gnome2-GConf perl-Gtk2 perl-Gtk2-GladeXML perl-IP-Country perl-Locale-gettext whois
+sdesc: "Gtk2-Perl whois client"
+ldesc: "Greenwich is a whois client that supports almost all gTLDS, ccTLDs,
+second level ccTLDS and other private domain registries, as well as all
+IP address registries. It is written in Perl and uses the Gnome
+libraries to integrate into your desktop environment."
